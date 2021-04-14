@@ -1,0 +1,22 @@
+{
+  "name": "dob-to-age",
+  "version": "0.0.1",
+  "description": "An app built to find age by providing date of birth",
+  "author": "MissingNo",
+  "homepage": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {},
+  "license": "MIT",
+  "keywords": [    
+    "dot-to-age",
+    "age finder",
+    "date of birth"
+  ]  
+}
