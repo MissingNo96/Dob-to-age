@@ -1,4 +1,4 @@
-var main = (DOB , timezone = 'UTC') => {
+var main = (DOB) => {
     
     var date = new Date();
 
@@ -52,7 +52,7 @@ var main = (DOB , timezone = 'UTC') => {
 
 };
 
-var age = main({date: 16, month: 12, year: 2006}, 'UTC')
+var age = main({date: 1, month: 1, year: 2000})
 // Give an JSON object in the first agrument with "date", "month" and "year" of date of birth,
 // and the function will return the age as an JSON object with "years", "months" and "days" of age.
 console.log(age);
